@@ -1,18 +1,29 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Understanding Selection Sort
 
-| Title          | Type   | Duration | Author               |
-|----------------|--------|----------|----------------------|
-| Selection Sort | Lesson | 1:00     | Suresh Melvin Sigera |
+## Introduction
+
+Selection Sort is a straightforward and intuitive comparison-based sorting algorithm. It segments the list into two parts: the sorted part at the beginning of the list and the unsorted part at the end of the list. The algorithm repeatedly selects the smallest (or largest, depending on sorting order) element from the unsorted segment and moves it to the end of the sorted segment.
 
 ## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- Explain how the selection sort works
+- Understand the operational mechanics of Selection Sort, including how it segments the list into sorted and unsorted parts and repeatedly selects the minimum element.
+- Identify the key characteristics of Selection Sort, such as in-place sorting, time complexity, space complexity, and its status as an unstable sort.
+- Implement Selection Sort in Java, comprehending the step-by-step process of finding the minimum element and swapping elements.
+- Evaluate the advantages of Selection Sort, including its simplicity, memory efficiency, and performance on small lists.
+- Recognize the disadvantages of Selection Sort, such as its scalability issues and lack of stability, and apply this understanding to decide when to use it effectively.
 
-### Selection Sort
+## Table of Contents
 
-Selection Sort is a straightforward and intuitive comparison-based sorting algorithm. It segments the list into two parts: the sorted part at the beginning of the list and the unsorted part at the end of the list. The algorithm repeatedly selects the smallest (or largest, depending on sorting order) element from the unsorted segment and moves it to the end of the sorted segment.
+1. [Introduction](#introduction)
+2. [How Selection Sort Works](#how-selection-sort-works)
+3. [Key Characteristics](#key-characteristics)
+4. [Time and Space Complexity](#time-and-space-complexity)
+5. [Advantages](#advantages)
+6. [Disadvantages](#disadvantages)
+7. [Implementation in Java](#implementation-in-java)
+8. [Summary and Key Takeaways](#summary-and-key-takeaways)
 
 ### How Selection Sort Works
 
