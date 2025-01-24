@@ -48,3 +48,5 @@ public class SelectionSort {
     }
 }
 ```
+## Final reflections
+Selection sort is a simple but inefficient algorithm. Despite this, its clarity makes it a good learning algorithm to train us to think algorithmically about sorting, and practical for small-scale datasets.

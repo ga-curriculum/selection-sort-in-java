@@ -8,6 +8,8 @@
 ## Introduction to selection sort
 Selection Sort is a simple comparison-based sorting algorithm. It repeatedly compares two elements and selects the smallest (or largest) element from the unsorted part of the array and places it in its correct position.
 
+![An image with 5 elements to explain selection sort](./assets/SelectionSort.png)
+
 ### Characteristics of selection sort algorithm
 - **Comparison-based**: It compares every pair of elements in a dataset to find the minimum.
 - **In-place**: Sorting is done within the array. No extra space is required.
@@ -41,8 +43,3 @@ Since it's an in-place sorting algorithm, its space complexity is O(1), requirin
 - **Inefficient for large data**: Time complexity of O(n^2) makes it unsuitable for large datasets.
 - **Unstable sorting**: Original order of equal elements might not be maintained.
 - **No early exit**: Always performs n(n−1)/2 comparisons, even if the array is sorted.
-
-## Final reflections
-Selection sort is a simple but inefficient algorithm. Despite this, its clarity makes it a good learning algorithm to train us to think algorithmically about sorting, and practical for small-scale datasets.
-
-
